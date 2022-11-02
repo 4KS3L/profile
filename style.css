@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+  background-color: black;
+}
+
+h1{
+  color: yellow;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+}
+
+a{
+  text-decoration: none;
+  color: beige;
+}
+
+.city{
+  display: flex;
+  justify-content: center;
+
+}
+
+.citybanner{
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(49, 27, 145, 0.877);
+}
+
+.citizens{
+  display: flex;
+  justify-content: space-evenly;
+  color: beige;
+  align-items: flex-end;
+}
+
+.card_personnage{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+
+.size_personnages{
+  height: 285px;
+  width: auto;
+}
+
+.aligntext{
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  background-color: yellow;
+  border-radius: 4px;
+  color: blue;
+  margin-top: 12px;
+  padding: 8px 16px;
+  width: 150px;
+}
+
+section{
+  margin-top: 160px;
+}
